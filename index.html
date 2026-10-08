@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ria Se Puder — a piada do dia, contada pelo Tio Mau e pela Dona Fê</title>
+<meta name="description" content="Já chegou a piada do dia. Ria se puder! O app de piadas com voz do Tio Mau e da Dona Fê.">
+<meta property="og:title" content="Ria Se Puder — já chegou a piada do dia!">
+<meta property="og:description" content="Piadas com voz, contadas pelo Tio Mau e pela Dona Fê. Duvido você não rir!">
+<meta property="og:url" content="https://riasepuderapp-dotcom.github.io/riasepuder/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://riasepuderapp-dotcom.github.io/riasepuder/assets/hero.jpg">
+<meta name="theme-color" content="#2A1626">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@400;500;600&family=Lilita+One&display=swap" rel="stylesheet">
+<style>
+:root {
+  --fundo:#1E1019; --cartao:rgba(42,23,38,.9); --cartao2:#2D1828; --creme:#FFF3DF; --texto:#F6E8D8; --suave:#CDB8A6;
+  --ouro:#FFD65C; --laranja:#FFA62E; --rosa:#E8559F; --roxo:#8E2BC9; --linha:rgba(255,243,223,.14);
+}
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
+body { margin:0; color:var(--texto); background:var(--fundo); font:400 1.0625rem/1.6 "Fredoka", system-ui, sans-serif; overflow-x:hidden; }
+body::before { content:""; position:fixed; inset:-30px; z-index:-2; background:url(assets/fundo.jpg) center/cover; filter:saturate(1.1); }
+body::after { content:""; position:fixed; inset:0; z-index:-1; background:linear-gradient(180deg, rgba(20,8,16,.35), rgba(20,8,16,.75)); }
+a { color:var(--ouro); text-underline-offset:3px; }
+a:focus-visible, button:focus-visible { outline:3px solid var(--ouro); outline-offset:3px; border-radius:12px; }
+.envolve { max-width:1040px; margin:0 auto; padding:0 16px; }
+
+/* ---------- topo ---------- */
+.topo { position:relative; max-width:1040px; margin:0 auto; }
+.topo img { display:block; width:100%; height:auto; border-radius:0 0 34px 34px; box-shadow:0 18px 50px rgba(0,0,0,.45); }
+.chamada { text-align:center; margin:-8px auto 0; padding:26px 16px 8px; }
+.chamada h1 { font:normal clamp(1.9rem,5.5vw,3.1rem)/1.1 "Lilita One", sans-serif; color:var(--creme); margin:0 0 .2em; text-shadow:0 3px 0 #2A1638; }
+.chamada h1 em { font-style:normal; color:var(--ouro); }
+.chamada p { margin:.2em auto 1.1em; max-width:620px; color:var(--suave); font-size:1.12rem; }
+.botoes { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; }
+.botao { display:inline-flex; align-items:center; gap:10px; padding:.85em 1.5em; border-radius:999px; font:1.12rem "Lilita One", sans-serif; text-decoration:none; border:0; cursor:pointer; }
+.botao.ouro { background:linear-gradient(180deg,#FFD95C,#F7B52C); color:#2D1828; box-shadow:0 6px 0 #B9741A; }
+.botao.roxo { background:linear-gradient(90deg,#C03BD6,#8E2BC9,#3E1A86); color:#fff; box-shadow:0 6px 0 #2A0F5C; }
+.botao:active { transform:translateY(3px); box-shadow:none; }
+.selo { display:inline-block; margin-top:14px; font:600 1.35rem "Caveat", cursive; color:var(--ouro); transform:rotate(-3deg); }
+
+/* ---------- palhinha ---------- */
+section { margin:56px auto; }
+h2 { font:normal clamp(1.6rem,4vw,2.2rem)/1.15 "Lilita One", sans-serif; color:var(--creme); text-align:center; margin:0 0 .3em; }
+.sub { text-align:center; color:var(--suave); margin:0 auto 1.4em; max-width:620px; }
+.quadro { position:relative; max-width:640px; margin:0 auto; padding:26px 24px 24px; border-radius:30px;
+  background:#3A1C28; border:14px solid #C27A38; box-shadow:inset 0 0 0 3px #7A4420, 0 20px 50px rgba(0,0,0,.45); }
+.quadro::before { content:"Prova uma palhinha!"; position:absolute; top:-30px; left:50%; transform:translateX(-50%) rotate(-3deg);
+  background:var(--ouro); color:#5A2A10; font:700 1.5rem "Caveat", cursive; padding:2px 22px; border-radius:12px; box-shadow:0 4px 0 #B9741A; white-space:nowrap; }
+.quem { display:flex; align-items:center; gap:14px; }
+.quem img { width:64px; height:64px; border-radius:50%; border:3px solid var(--ouro); background:var(--creme); }
+.quem b { display:block; font:1.25rem "Lilita One", sans-serif; color:var(--ouro); font-weight:normal; }
+.quem span { font:600 1.2rem "Caveat", cursive; color:#FFE3A3; }
+.pergunta { text-align:center; font-size:1.3rem; font-weight:500; color:#fff; margin:18px 0 6px; min-height:2.4em; }
+.resposta { text-align:center; font:1.45rem "Lilita One", sans-serif; color:var(--ouro); min-height:1.6em; opacity:0; transform:scale(.85); transition:all .35s cubic-bezier(.3,1.6,.5,1); }
+.resposta.ver { opacity:1; transform:none; }
+.quadro .botao { width:100%; justify-content:center; margin-top:16px; }
+.contador { position:absolute; top:18px; right:22px; color:#B9A6CF; font:1rem "Lilita One", sans-serif; }
+
+/* ---------- recursos ---------- */
+.grade { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+.card { background:var(--cartao); border:1px solid rgba(255,214,92,.2); border-radius:24px; padding:22px; box-shadow:0 12px 34px rgba(0,0,0,.3); }
+.card .ic { width:54px; height:54px; border-radius:16px; display:grid; place-items:center; font-size:1.7rem; margin-bottom:10px; }
+.card h3 { font:normal 1.25rem/1.2 "Lilita One", sans-serif; color:var(--creme); margin:0 0 .3em; }
+.card p { margin:0; color:var(--suave); }
+
+/* ---------- turma ---------- */
+.turma { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
+.pessoa { display:flex; gap:16px; align-items:center; }
+.pessoa img { width:110px; height:110px; flex:none; border-radius:50%; border:4px solid var(--ouro); background:var(--creme); }
+.pessoa h3 { font:normal 1.45rem "Lilita One", sans-serif; color:var(--ouro); margin:0; }
+.pessoa .papel { font:600 1.25rem "Caveat", cursive; color:#FFE3A3; margin:0 0 .3em; }
+
+/* ---------- testadores ---------- */
+.testar { text-align:center; background:linear-gradient(135deg,rgba(192,59,214,.35),rgba(62,26,134,.5)); border:1px solid rgba(255,214,92,.3); }
+.testar ol { text-align:left; display:inline-block; margin:.6em auto 1.2em; padding-left:1.3em; }
+.testar li::marker { color:var(--ouro); font-weight:600; }
+
+/* ---------- rodapé ---------- */
+footer { text-align:center; padding:28px 16px 40px; color:var(--suave); font-size:.95rem; border-top:1px solid var(--linha); margin-top:40px; }
+footer nav { display:flex; flex-wrap:wrap; justify-content:center; gap:6px 18px; margin-bottom:10px; }
+footer .mao { font:600 1.35rem "Caveat", cursive; color:var(--creme); display:block; margin-bottom:6px; }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .resposta { transition:none; } }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <img src="assets/hero.jpg" width="941" height="540" alt="Tio Mau e Dona Fê, sorridentes, com o logo Ria Se Puder: Já chegou a piada do dia. Ria se puder.">
+</header>
+
+<div class="chamada">
+  <h1>Já chegou a <em>piada do dia</em>.<br>Ria se puder!</h1>
+  <p>Todo dia uma piada nova, contada em voz pelo Tio Mau e pela Dona Fê. Um app leve, divertido e feito para alegrar o seu dia.</p>
+  <div class="botoes">
+    <a class="botao ouro" href="#palhinha">😄 Quero uma palhinha</a>
+    <a class="botao roxo" href="#testar">🚀 Quero testar o app</a>
+  </div>
+  <span class="selo">Em breve na Google Play!</span>
+</div>
+
+<main class="envolve">
+
+<section id="palhinha" aria-labelledby="t-palhinha">
+  <h2 id="t-palhinha">Duvido você não rir!</h2>
+  <p class="sub">Toque no botão e um dos dois conta uma piada pra você (com som).</p>
+  <div class="quadro" aria-live="polite">
+    <span class="contador" id="contador"></span>
+    <div class="quem"><img id="foto" src="assets/tio-mau.webp" width="64" height="64" alt=""><div><b id="nome">Tio Mau conta:</b><span id="frase">chega mais!</span></div></div>
+    <p class="pergunta" id="pergunta">O Tio Mau separou uma piada pra você...</p>
+    <p class="resposta" id="resposta"></p>
+    <button class="botao ouro" id="contar" type="button">Quer uma palhinha? 😄</button>
+  </div>
+</section>
+
+<section aria-labelledby="t-recursos">
+  <h2 id="t-recursos">Por que você vai rir com a gente</h2>
+  <p class="sub">Simples de usar, do jeitinho que a família inteira gosta.</p>
+  <div class="grade">
+    <div class="card"><div class="ic" style="background:linear-gradient(135deg,#FFD95C,#F59E1B)">📅</div><h3>Piada nova todo dia</h3><p>Abra o app e já tem uma piada fresquinha esperando por você. Dá até para receber um lembrete.</p></div>
+    <div class="card"><div class="ic" style="background:linear-gradient(135deg,#FF6FB5,#B05BE8)">🎙️</div><h3>Contada em voz</h3><p>O Tio Mau solta a piada e a Dona Fê conta um causo antes. É só ouvir e rir.</p></div>
+    <div class="card"><div class="ic" style="background:linear-gradient(135deg,#5BC0EB,#2F6FE0)">🎨</div><h3>Do seu jeito</h3><p>Mude cabelo, olhos, pele, roupa e óculos dos personagens. Cada um tem a sua turma.</p></div>
+    <div class="card"><div class="ic" style="background:linear-gradient(135deg,#2FD07A,#14A6A0)">🎶</div><h3>Trilhas originais</h3><p>Marchinha, forró, bossa, valsinha, samba e chorinho, todas compostas para o app.</p></div>
+  </div>
+</section>
+
+<section aria-labelledby="t-turma">
+  <h2 id="t-turma">Conheça a turma</h2>
+  <p class="sub">Um casal que vive de bom humor há muitos anos.</p>
+  <div class="turma">
+    <div class="card pessoa"><img src="assets/tio-mau.webp" width="110" height="110" alt="Tio Mau"><div><h3>Tio Mau</h3><p class="papel">o contador de piadas</p><p>Bigode colorido, camisa florida e uma piada para cada situação. Já vai avisando: não pode rir!</p></div></div>
+    <div class="card pessoa"><img src="assets/dona-fe.webp" width="110" height="110" alt="Dona Fê"><div><h3>Dona Fê</h3><p class="papel">a contadora de histórias</p><p>Antes de cada piada, ela conta um causo da vida com o Tio Mau. Senta aqui que lá vem história!</p></div></div>
+  </div>
+</section>
+
+<section id="testar" aria-labelledby="t-testar">
+  <div class="card testar">
+    <h2 id="t-testar">Quer testar antes de todo mundo?</h2>
+    <p>Estamos montando a turma de testadores do Ria Se Puder para a Google Play. É grátis e rapidinho:</p>
+    <ol>
+      <li>Envie um e-mail com o assunto <b>“Quero testar”</b> usando a sua conta Google (Gmail).</li>
+      <li>Você recebe o convite para baixar o app pela Google Play.</li>
+      <li>Fique com o app por pelo menos 14 dias e ria à vontade!</li>
+    </ol>
+    <br><a class="botao ouro" href="mailto:riasepuder.app@gmail.com?subject=Quero%20testar%20o%20Ria%20Se%20Puder">✉️ Quero testar o app</a>
+  </div>
+</section>
+
+<section aria-labelledby="t-seguro">
+  <h2 id="t-seguro">Humor com respeito</h2>
+  <div class="grade">
+    <div class="card"><h3>🔒 Seus dados protegidos</h3><p>Senha guardada de forma protegida, sem venda de dados e com exclusão da conta pelo próprio app. Veja a <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p></div>
+    <div class="card"><h3>🚩 Denúncia em cada piada</h3><p>Viu algo ofensivo? Toque na bandeirinha: a piada some na hora e passa por revisão. Veja os <a href="termos-de-uso.html">Termos de Uso</a>.</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <span class="mao">Feito com ♥ para alegrar o seu dia</span>
+  <nav aria-label="Links"><a href="politica-de-privacidade.html">Política de Privacidade</a><a href="termos-de-uso.html">Termos de Uso</a><a href="excluir-conta.html">Excluir minha conta</a><a href="mailto:riasepuder.app@gmail.com">Contato</a></nav>
+  © 2026 Ria Se Puder · riasepuder.app@gmail.com
+</footer>
+
+<script>
+(function () {
+  var piadas = [[3,"Qual é o café mais perigoso do mundo?","O ex-presso."],[36,"Qual é a cidade brasileira que não tem táxi?","Uberlândia."],
+    [7,"Por que o jacaré tirou o filho da escola?","Porque ele réptil de ano."],[18,"O que o cavalo foi fazer no orelhão?","Passar um trote."],
+    [10,"Qual é o rei dos queijos?","O reiqueijão."],[84,"O que o queijo disse para a goiabada?","Juntos, somos Romeu e Julieta!"],
+    [23,"Qual é o peixe que caiu do 10º andar?","Aaaaaaaatum!"],[118,"O que o semáforo disse para o carro?","Não olha, que eu estou me trocando!"],
+    [44,"Qual é o cúmulo da força?","Dobrar a esquina."]];
+  for (var i = piadas.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = piadas[i]; piadas[i] = piadas[j]; piadas[j] = t; }
+  var $ = function (id) { return document.getElementById(id); };
+  var n = 0, ocupado = false, audio = null;
+  function tocar(arq, depois) {
+    try { if (audio) audio.pause(); audio = new Audio('assets/voz/' + arq + '.mp3'); audio.onended = depois; audio.onerror = function () { setTimeout(depois, 1500); };
+      var p = audio.play(); if (p && p.catch) p.catch(function () { setTimeout(depois, 1500); }); }
+    catch (e) { setTimeout(depois, 1500); }
+  }
+  $('contar').addEventListener('click', function () {
+    if (ocupado) return;
+    if (n >= 3) { location.hash = '#testar'; return; }
+    ocupado = true;
+    var pz = piadas[n % piadas.length], fe = Math.random() < 0.5, g = fe ? 'f' : 'm', id = ('00' + pz[0]).slice(-3);
+    $('foto').src = fe ? 'assets/dona-fe.webp' : 'assets/tio-mau.webp';
+    $('nome').textContent = fe ? 'Dona Fê conta:' : 'Tio Mau conta:';
+    $('frase').textContent = fe ? 'escuta essa, meu bem...' : 'presta atenção...';
+    $('contador').textContent = (n + 1) + ' de 3';
+    $('pergunta').textContent = pz[1]; $('resposta').textContent = pz[2]; $('resposta').classList.remove('ver');
+    $('contar').textContent = 'Contando... 🤭';
+    tocar('p' + id + 'a_' + g, function () {
+      setTimeout(function () {
+        $('resposta').classList.add('ver'); $('frase').textContent = fe ? 'hi hi hi!' : 'rá rá rá!';
+        tocar('p' + id + 'b_' + g, function () {
+          ocupado = false; n++;
+          $('contar').textContent = n < 3 ? 'Outra! 😂' : 'Quero mais! Testar o app 🚀';
+        });
+      }, 1000);
+    });
+  });
+})();
+</script>
+</body>
+</html>
