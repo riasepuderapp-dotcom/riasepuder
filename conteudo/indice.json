@@ -1,6 +1,6 @@
 {
  "versao": 2,
- "gerado_em": "2026-10-12",
+ "gerado_em": "2026-10-17",
  "lotes": [
   {
    "arquivo": "piadas/lote_0001.txt",
@@ -227,8 +227,34 @@
   }
  ],
  "audio_acervo": {
-  "m": [],
-  "f": []
+  "m": [
+   {
+    "arquivo": "audio/acervo/m/lote_0001_00.zip",
+    "piadas": 50,
+    "bytes": 1264000,
+    "sha256": "0093fe9b47d65da6a4e69af05dc7605493bccde3c474c03d252828152e1b04ca"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0001_01.zip",
+    "piadas": 44,
+    "bytes": 1199880,
+    "sha256": "f13e43cc2c54243527841d4469c8c32e029c3f8dfea09c9a07ba694c35d8ecb3"
+   }
+  ],
+  "f": [
+   {
+    "arquivo": "audio/acervo/f/lote_0001_00.zip",
+    "piadas": 50,
+    "bytes": 1346941,
+    "sha256": "9e834663b53ffd3a89b2c935364fe02abcbc0ded9c8a36e955b149d6a70b4ee2"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0001_01.zip",
+    "piadas": 44,
+    "bytes": 1271000,
+    "sha256": "285931b7a813419dedf763ca3a8c0f1520f97402a296ee11bdc958abdbf3460d"
+   }
+  ]
  },
  "total_piadas": 3103
 }
