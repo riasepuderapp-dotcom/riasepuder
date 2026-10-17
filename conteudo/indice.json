@@ -443,6 +443,66 @@
     "piadas": 50,
     "bytes": 1638173,
     "sha256": "e18440130e420079ae7a5e0a5996a2be14efb644da785302fb2af7f9191421a0"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_04.zip",
+    "piadas": 50,
+    "bytes": 1689363,
+    "sha256": "e624b4c60f21f5e557f7c9a63c013cca0ef5a2d95175be1a9b6fadad9166545d"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_05.zip",
+    "piadas": 50,
+    "bytes": 1733392,
+    "sha256": "48556577c631faf1e65e662f192342ca0205478a7d46048c7673f45ab8b429ff"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_06.zip",
+    "piadas": 50,
+    "bytes": 1713027,
+    "sha256": "7c200d1114be8d39c581600cbbc4bd4d5ef82f284fb46b72005d26ea1672ccca"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_07.zip",
+    "piadas": 50,
+    "bytes": 1766173,
+    "sha256": "95d807489d0d4facc492f1afad00d06fec1f26cd2dfc981ff6162da81b8aee80"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_08.zip",
+    "piadas": 50,
+    "bytes": 1831870,
+    "sha256": "411efe22daa5fbc876a07bdd4f7ece0739d96736e446997e33fe2463656219cb"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0005_09.zip",
+    "piadas": 50,
+    "bytes": 1794297,
+    "sha256": "e5031acdfa2be8612a13dad1932db47326308118a672fe0163f4fe4f7f7ad8b9"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0006_00.zip",
+    "piadas": 50,
+    "bytes": 1497521,
+    "sha256": "e0467d85d5bab8f239a8d129fe26534160e083f3c5478520cfa57b2fe07abec9"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0006_01.zip",
+    "piadas": 50,
+    "bytes": 1394693,
+    "sha256": "98ddb54bdc792d03ea96d2727efc4e3531fcc2d35698d9938385d2ecc4eb8c10"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0006_02.zip",
+    "piadas": 50,
+    "bytes": 1746985,
+    "sha256": "ef3430f4d0662699f194f6df6257c75fdad699ca33b59666aab6aba5db9f0c9e"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0006_03.zip",
+    "piadas": 50,
+    "bytes": 1589022,
+    "sha256": "5a0d06bd652c457a91341cdae85056f69424c37fb639b382a372abe2fb47155d"
    }
   ],
   "f": [
@@ -661,6 +721,66 @@
     "piadas": 50,
     "bytes": 1716559,
     "sha256": "c2e129a26526beb662dde1bf23bf17d34552a926655cce9f0882e3704f3c13f7"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_04.zip",
+    "piadas": 50,
+    "bytes": 1764888,
+    "sha256": "6f91f428bd4ed4ce1b66b3bdd9a0fc1e808087622b4481fbadca2662fa16d8a4"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_05.zip",
+    "piadas": 50,
+    "bytes": 1801090,
+    "sha256": "7023021df2f38843288f38362d9b0a14018d03cec39f99a0b3cee6622581ddee"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_06.zip",
+    "piadas": 50,
+    "bytes": 1788987,
+    "sha256": "051471fde88777cdf0e7026d1d16ed5dd1e7d341644a5d5eb882e632f4a856da"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_07.zip",
+    "piadas": 50,
+    "bytes": 1834869,
+    "sha256": "e8d72c1aa50605988e615771aa4c8504eeecde27b3144146012da674dec9403c"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_08.zip",
+    "piadas": 50,
+    "bytes": 1912681,
+    "sha256": "09272dc40f8b302f56142fcb76ac3bd7f908ce84594f493c3f726f86e2e1c07a"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0005_09.zip",
+    "piadas": 50,
+    "bytes": 1865128,
+    "sha256": "badd90d88a19745aa3d2a84c54a237ceaf3c84a09aa86fd851b1c5c2abe3be12"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0006_00.zip",
+    "piadas": 50,
+    "bytes": 1576595,
+    "sha256": "847d3c37b09b319da641a0f1e8fe3827c17e37d132f8a9411bb0d88dfb35f191"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0006_01.zip",
+    "piadas": 50,
+    "bytes": 1471722,
+    "sha256": "332af9b7cd5c27eafe405f6c4528cdd3b21034ff6ab1480bb503913d04a36f89"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0006_02.zip",
+    "piadas": 50,
+    "bytes": 1834347,
+    "sha256": "a2e7c578f0f4e4295d7587f0513f84dbeb5226861ec1f582309ea4fdc5ef4c4a"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0006_03.zip",
+    "piadas": 50,
+    "bytes": 1669498,
+    "sha256": "2c6e0acdae192a03c05f966a24cf356b223edbdbf4f04c178f3ca3321da72df1"
    }
   ]
  },
