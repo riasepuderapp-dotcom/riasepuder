@@ -1,0 +1,234 @@
+{
+ "versao": 2,
+ "gerado_em": "2026-10-12",
+ "lotes": [
+  {
+   "arquivo": "piadas/lote_0001.txt",
+   "piadas": 94,
+   "bytes": 7763,
+   "sha256": "1220cb1902fe437cd89479fb992202a80e0ee7599c47ced115f6d406819b38b6"
+  },
+  {
+   "arquivo": "piadas/lote_0002.txt",
+   "piadas": 498,
+   "bytes": 47609,
+   "sha256": "d8140284de1581f38846ab1d7a0e33e6f9ba4b1a675e480508da64cded5cea06"
+  },
+  {
+   "arquivo": "piadas/lote_0003.txt",
+   "piadas": 500,
+   "bytes": 51282,
+   "sha256": "a5f00307c2ffd9aa4f8104b784440905480eb5d3a5ac3db168430ab0ad772fbd"
+  },
+  {
+   "arquivo": "piadas/lote_0004.txt",
+   "piadas": 500,
+   "bytes": 56256,
+   "sha256": "c24943bd59ea978fb36e744ab17e6fb4ff851e65ee4d06d8ccda533fac6bb12f"
+  },
+  {
+   "arquivo": "piadas/lote_0005.txt",
+   "piadas": 500,
+   "bytes": 56729,
+   "sha256": "7849297244576d79d362d00ff83ec27a63d2656af2de6c8705053eac2d2ec55c"
+  },
+  {
+   "arquivo": "piadas/lote_0006.txt",
+   "piadas": 500,
+   "bytes": 56803,
+   "sha256": "809c682c8c86d34fa377f01677c571b2cb1106576813d700a426ff631ff129e5"
+  },
+  {
+   "arquivo": "piadas/lote_0007.txt",
+   "piadas": 498,
+   "bytes": 60295,
+   "sha256": "abeb52aef3ec9181afdf957e5c7c83abe24bc28b9f84c99b84663dd956b1fd72"
+  },
+  {
+   "arquivo": "piadas/extras.txt",
+   "piadas": 13,
+   "bytes": 1109,
+   "sha256": "e2c5ed216f9a7368321373bea151d53bb76a501ffad4d1f848afdddf20834fbd"
+  }
+ ],
+ "audio_android": {
+  "bloco": 20,
+  "pacotes": [
+   {
+    "arquivo": "audio/android/p00.zip",
+    "de": 0,
+    "ate": 19,
+    "clipes": 100,
+    "bytes": 1578699,
+    "sha256": "6fa335985774f3670aaa6dfd9bd0a9c33265d27be4bde7cb8c548bc1259ee3cf"
+   },
+   {
+    "arquivo": "audio/android/p01.zip",
+    "de": 20,
+    "ate": 39,
+    "clipes": 90,
+    "bytes": 1429668,
+    "sha256": "c349c04afa4f6e682b755d73afd08dabb3e505ddfe7fdcb47cbd1a92cf93c50f"
+   },
+   {
+    "arquivo": "audio/android/p02.zip",
+    "de": 40,
+    "ate": 59,
+    "clipes": 80,
+    "bytes": 1219435,
+    "sha256": "fdfdc3a2cd62fbeec479520ba70f36e7cdfe81ee55c845d66313e7a563012510"
+   },
+   {
+    "arquivo": "audio/android/p03.zip",
+    "de": 60,
+    "ate": 79,
+    "clipes": 90,
+    "bytes": 1418461,
+    "sha256": "89026a213a327b54188d34b2b08aa4610e97ba9104b62f74bf9405d87fae6a43"
+   },
+   {
+    "arquivo": "audio/android/p04.zip",
+    "de": 80,
+    "ate": 99,
+    "clipes": 95,
+    "bytes": 1487786,
+    "sha256": "ce581a4aa685a81dad023a1b39f0103693bf4e5206c1c62d0348705b2582283e"
+   },
+   {
+    "arquivo": "audio/android/p05.zip",
+    "de": 100,
+    "ate": 119,
+    "clipes": 90,
+    "bytes": 1404795,
+    "sha256": "8fb1f16e83e26372aaea677b739f1cc513deef89eef6046644d648d52a59319c"
+   },
+   {
+    "arquivo": "audio/android/p06.zip",
+    "de": 120,
+    "ate": 139,
+    "clipes": 95,
+    "bytes": 1491148,
+    "sha256": "17f58e415930872fa21b5bcaea8ff386e5d8d4dc1917becd5a8be98372833b0f"
+   },
+   {
+    "arquivo": "audio/android/p07.zip",
+    "de": 140,
+    "ate": 159,
+    "clipes": 91,
+    "bytes": 1372978,
+    "sha256": "d9ca0d34dde254276ad844209cb15175a4c9f474e9a91fdb95da5aa567ccd452"
+   },
+   {
+    "arquivo": "audio/android/p08.zip",
+    "de": 160,
+    "ate": 179,
+    "clipes": 80,
+    "bytes": 1047258,
+    "sha256": "168257e177db475e3b55d0c7d94a58e68052a33d7ca35bb49352c0c131e98256"
+   },
+   {
+    "arquivo": "audio/android/p09.zip",
+    "de": 180,
+    "ate": 199,
+    "clipes": 80,
+    "bytes": 1156326,
+    "sha256": "cab15f6af11522b5cef7e306ac3d325c31ce585f9beb973cde07532b50b77fa3"
+   },
+   {
+    "arquivo": "audio/android/p10.zip",
+    "de": 200,
+    "ate": 219,
+    "clipes": 80,
+    "bytes": 1030083,
+    "sha256": "1fe1dcba99e6fb73bcf33058e36370acb8a0515d72cbe4f66839e4073d56ef65"
+   },
+   {
+    "arquivo": "audio/android/p11.zip",
+    "de": 220,
+    "ate": 239,
+    "clipes": 80,
+    "bytes": 1039028,
+    "sha256": "12785859bedebcf4dcc8dc8655558351e3e8323b932de3ffb5ca71042344d67d"
+   },
+   {
+    "arquivo": "audio/android/p12.zip",
+    "de": 240,
+    "ate": 259,
+    "clipes": 80,
+    "bytes": 982917,
+    "sha256": "ba53a5b85dbeb626bb68ff9848231063ee0195b3004e478ad1acb90bf828f1e9"
+   },
+   {
+    "arquivo": "audio/android/p13.zip",
+    "de": 260,
+    "ate": 279,
+    "clipes": 80,
+    "bytes": 892796,
+    "sha256": "28e25a3705593c4bdfd699ee6c1dc994117a84c259a98035e4dd8113318f6109"
+   },
+   {
+    "arquivo": "audio/android/p14.zip",
+    "de": 280,
+    "ate": 299,
+    "clipes": 52,
+    "bytes": 615217,
+    "sha256": "3544272605e6cc25695d540e3a0fa001fc7734276bb37206c294ed61d83671d1"
+   }
+  ]
+ },
+ "lotes_v2": [
+  {
+   "arquivo": "piadas2/lote_0001.tsv",
+   "piadas": 94,
+   "bytes": 8336,
+   "sha256": "329d52ed36b2f4d2b15b5b6eac5df7063a721aea7e38d7c52954701f8082a82e"
+  },
+  {
+   "arquivo": "piadas2/lote_0002.tsv",
+   "piadas": 498,
+   "bytes": 50606,
+   "sha256": "ec11b6df4a8da26a60a81a5092e455d70e5a3694f185d65fec19742331d01d26"
+  },
+  {
+   "arquivo": "piadas2/lote_0003.tsv",
+   "piadas": 500,
+   "bytes": 54291,
+   "sha256": "54891a9136dad459c5f79413a72427cc972cbeb5accb6cf86ccc3d78ff431dbc"
+  },
+  {
+   "arquivo": "piadas2/lote_0004.tsv",
+   "piadas": 500,
+   "bytes": 59265,
+   "sha256": "0a4caad03e66b3dd25f9d758446af74d2656185b714a76ad3a08df73446381b2"
+  },
+  {
+   "arquivo": "piadas2/lote_0005.tsv",
+   "piadas": 500,
+   "bytes": 59738,
+   "sha256": "8ca923a50e47e034a02580307af7ae14a4fc89ce0185b863e5c493bcd1219fbf"
+  },
+  {
+   "arquivo": "piadas2/lote_0006.tsv",
+   "piadas": 500,
+   "bytes": 59812,
+   "sha256": "f94aec26a3bc674004c5cf77accb73af608fcdc5ab2d6f35aa142b1152e7d869"
+  },
+  {
+   "arquivo": "piadas2/lote_0007.tsv",
+   "piadas": 498,
+   "bytes": 63292,
+   "sha256": "924e71d45036d33216b4bcc4b1905d2dd9ed8bf43801808154bc46b85c67afe5"
+  },
+  {
+   "arquivo": "piadas2/lote_extras.tsv",
+   "piadas": 13,
+   "bytes": 1161,
+   "sha256": "2fcb6f01e7921879d984aa6625250596699a668ddaeda8463bf8baea01c70392"
+  }
+ ],
+ "audio_acervo": {
+  "m": [],
+  "f": []
+ },
+ "total_piadas": 3103
+}

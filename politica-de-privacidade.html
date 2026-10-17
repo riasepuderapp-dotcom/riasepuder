@@ -37,7 +37,7 @@ nav a[aria-current] { color:var(--creme); text-decoration:none; font-weight:600;
 <main>
 <a class="marca" href="index.html">← Ria Se Puder</a>
 <h1>Política de Privacidade</h1>
-<p class="versao">Versão 1.3 · 05/10/2026</p>
+<p class="versao">Versão 1.4 · 08/10/2026</p>
 <p class="nota">Esta é a versão completa. O resumo “Como cuidamos dos seus dados” traz os mesmos pontos em poucas linhas.</p>
 <h2>1. Quem somos</h2>
 <p>O Ria Se Puder é um aplicativo de piadas para Android e Windows, apresentado pelos personagens Tio Mau e Dona Fê. Nesta política, “nós” é o responsável pelo aplicativo, que decide como os dados são tratados (o controlador, na linguagem da LGPD — Lei nº 13.709/2018).</p>
@@ -52,8 +52,8 @@ nav a[aria-current] { color:var(--creme); text-decoration:none; font-weight:600;
 <li>Preferências: personagem, aparência do avatar, voz, lembrete diário e o histórico das piadas já contadas, para não repetir.</li>
 <li>Foto de perfil (opcional): se você escolher enviar uma foto sua, ela fica guardada só neste aparelho, dentro da área privada do app. Você pode trocá-la ou removê-la em “Minha conta”, e ela é apagada junto com a conta.</li>
 <li>Dados de acesso salvos e digital (opcionais): se você ativar “Lembrar meus dados” ou a entrada com a digital, o e-mail e a senha ficam guardados de forma protegida pelo mecanismo de segurança do próprio aparelho. O Ria Se Puder não tem acesso à sua impressão digital: a verificação é feita pelo sistema do celular.</li>
-<li>Dados técnicos de conexão: ao buscar piadas novas na internet, o serviço que hospeda esse conteúdo recebe os dados técnicos comuns a qualquer conexão, como o endereço IP.</li>
-<li>Denúncias de piadas: a piada denunciada (texto e identificação), a fonte dela, o motivo escolhido e o comentário opcional que você escrever. A denúncia não leva seu nome, e-mail ou telefone. No aparelho guardamos a lista de piadas que você escondeu e as fontes que bloqueou.</li>
+<li>Dados técnicos de conexão: ao buscar piadas novas na internet, o serviço que hospeda essa lista (GitHub Pages) recebe os dados técnicos comuns a qualquer conexão, como o endereço IP.</li>
+<li>Denúncias de piadas: a piada denunciada (texto e identificação), a fonte dela, o motivo escolhido, o comentário opcional que você escrever, o número de protocolo e um identificador anônimo do aparelho, gerado ao acaso pelo app, usado só para devolver a decisão da denúncia ao aparelho que denunciou. A denúncia não leva seu nome, e-mail ou telefone. No aparelho guardamos a lista de piadas restritas para você e as fontes que bloqueou.</li>
 <li>Plano da conta: se a conta é gratuita ou Premium e a data de ativação do Premium.</li>
 </ul>
 <p>Não coletamos sua localização, contatos, fotos, áudio do microfone nem dados de pagamento.</p>
@@ -67,7 +67,7 @@ nav a[aria-current] { color:var(--creme); text-decoration:none; font-weight:600;
 <li>Oferecer os recursos do app: piadas com voz, personagens e personalização.</li>
 <li>Enviar o lembrete diário, se você ativá-lo.</li>
 <li>Buscar novas piadas na internet.</li>
-<li>Moderar o conteúdo: receber e revisar denúncias, remover piadas que violem as regras de conteúdo e esconder as que você denunciou ou cujas fontes bloqueou.</li>
+<li>Moderar o conteúdo: aplicar o filtro de conteúdo às piadas, receber as denúncias pelo canal de denúncias, fazer a análise jurídica, remover as piadas que violem as diretrizes, manter restritas as que você denunciou e devolver a decisão ao seu aparelho.</li>
 <li>Ativar e mostrar a conta Premium.</li>
 <li>Melhorar a segurança e o funcionamento do aplicativo.</li>
 </ul>
@@ -85,11 +85,11 @@ nav a[aria-current] { color:var(--creme); text-decoration:none; font-weight:600;
 <p>Não vendemos seus dados pessoais. Hoje, o aplicativo se comunica apenas com:</p>
 <ul>
 <li>Google e Meta (Facebook): somente quando você escolhe entrar com uma dessas contas, para fazer a autenticação.</li>
-<li>Hugging Face: serviço que hospeda o acervo público de piadas Puntuguese, de onde o app baixa piadas novas. Recebe só os dados técnicos da conexão; nenhum dado da sua conta é enviado.</li>
+<li>GitHub Pages: hospeda o site do Ria Se Puder e a lista de piadas novas, revisada por nós, de onde o app baixa piadas toda semana. Recebe só os dados técnicos da conexão; nenhum dado da sua conta é enviado.</li>
 </ul>
 <p>O lembrete diário é agendado no próprio aparelho, sem servidor de notificações.</p>
 <p>Para enviar o código de 6 dígitos (usado para criar uma nova senha ou um novo código de segurança) e, se você autorizar, as novidades e promoções, usamos: Google (Gmail, por meio do Google Apps Script) para o e-mail e Meta (Plataforma WhatsApp Business) para o WhatsApp. Eles recebem apenas o seu e-mail ou telefone e o texto da mensagem com o código, que vale por 15 minutos. O código em si fica guardado no aparelho só de forma protegida (hash) e é apagado assim que é usado.</p>
-<p>As denúncias de piadas vão para uma planilha privada de revisão no Google (Google Planilhas, por meio do Google Apps Script), acessada só pela nossa equipe de moderação. Se a moderação automática estiver ligada, o texto da piada denunciada (sem nenhum dado seu) também é analisado pela API de moderação da OpenAI. O app baixa desse serviço apenas a lista de piadas removidas.</p>
+<p>As denúncias de piadas vão, com o protocolo, para uma planilha privada de análise no Google (Google Planilhas, por meio do Google Apps Script) e para o e-mail do responsável (Gmail), acessados só por quem faz a análise. Se a moderação automática estiver ligada, o texto da piada denunciada (sem nenhum dado seu) também é analisado pela API de moderação da OpenAI, apenas como apoio: a decisão é sempre humana. O app baixa desse serviço apenas as decisões: a lista de piadas removidas e, para o aparelho que denunciou, as denúncias indeferidas.</p>
 <p>A versão gratuita poderá exibir anúncios no futuro. Antes disso, esta política será atualizada com o nome do provedor de anúncios e os dados envolvidos.</p>
 <p>Também poderemos compartilhar dados quando exigido por lei ou por ordem de autoridade competente.</p>
 <h2>7. Segurança</h2>
@@ -115,7 +115,7 @@ nav a[aria-current] { color:var(--creme); text-decoration:none; font-weight:600;
 <h2>12. Contato</h2>
 <p>Dúvidas, solicitações ou reclamações sobre seus dados:</p>
 <p><a href="mailto:riasepuder.app@gmail.com">riasepuder.app@gmail.com</a></p>
-<nav aria-label="Documentos"><a href="index.html">Início</a> · <a href="politica-de-privacidade.html" aria-current="page">Política de Privacidade</a> · <a href="termos-de-uso.html">Termos de Uso</a> · <a href="excluir-conta.html">Excluir minha conta</a></nav>
+<nav aria-label="Documentos"><a href="index.html">Início</a> · <a href="politica-de-privacidade.html" aria-current="page">Política de Privacidade</a> · <a href="termos-de-uso.html">Termos de Uso</a> · <a href="diretrizes-e-denuncias.html">Diretrizes e denúncias</a> · <a href="excluir-conta.html">Excluir minha conta</a></nav>
 </main>
 </body>
 </html>
