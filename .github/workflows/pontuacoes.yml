@@ -1,0 +1,37 @@
+# Pontuações do Ria Se Puder (base do ranking geral futuro)
+# Uma vez por dia busca no serviço (Google Apps Script) a soma das estrelas e favoritas de todos os aparelhos
+# e guarda em conteudo/pontuacoes.json: piada, média, votos, soma das estrelas e favoritos.
+#
+# Para ligar: Settings > Secrets and variables > Actions > New repository secret
+#   Nome: RANKING_URL   Valor: https://script.google.com/macros/s/.../exec?acao=pontuacoes
+name: Pontuações das piadas
+
+on:
+  schedule:
+    - cron: "17 9 * * *"     # todo dia, 06:17 em Salvador
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  pontuacoes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar as pontuações do serviço
+        env:
+          RANKING_URL: ${{ secrets.RANKING_URL }}
+        run: |
+          if [ -z "$RANKING_URL" ]; then echo "Segredo RANKING_URL ainda não configurado: nada a fazer."; exit 0; fi
+          curl -fsSL --max-time 120 "$RANKING_URL" -o /tmp/pontuacoes.json
+          jq -e '.piadas | type == "array"' /tmp/pontuacoes.json > /dev/null
+          jq '.' /tmp/pontuacoes.json > conteudo/pontuacoes.json
+      - name: Publicar se mudou
+        run: |
+          git config user.name "Ria Se Puder (pontuações)"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo/pontuacoes.json
+          if git diff --cached --quiet; then echo "Pontuações sem mudanças."; exit 0; fi
+          git commit -m "Pontuações: atualização diária"
+          git push
