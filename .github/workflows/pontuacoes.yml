@@ -3,7 +3,7 @@
 # e guarda em conteudo/pontuacoes.json: piada, média, votos, soma das estrelas e favoritos.
 #
 # Para ligar: Settings > Secrets and variables > Actions > New repository secret
-#   Nome: RANKING_URL   Valor: https://script.google.com/macros/s/.../exec?acao=pontuacoes
+#   Nome: PONTUACOES_URL   Valor: https://script.google.com/macros/s/.../exec?acao=pontuacoes
 name: Pontuações das piadas
 
 on:
@@ -21,10 +21,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Baixar as pontuações do serviço
         env:
-          RANKING_URL: ${{ secrets.RANKING_URL }}
+          PONTUACOES_URL: ${{ secrets.PONTUACOES_URL }}
         run: |
-          if [ -z "$RANKING_URL" ]; then echo "Segredo RANKING_URL ainda não configurado: nada a fazer."; exit 0; fi
-          curl -fsSL --max-time 120 "$RANKING_URL" -o /tmp/pontuacoes.json
+          if [ -z "$PONTUACOES_URL" ]; then echo "Segredo PONTUACOES_URL ainda não configurado: nada a fazer."; exit 0; fi
+          curl -fsSL --max-time 120 "$PONTUACOES_URL" -o /tmp/pontuacoes.json
           jq -e '.piadas | type == "array"' /tmp/pontuacoes.json > /dev/null
           jq '.' /tmp/pontuacoes.json > conteudo/pontuacoes.json
       - name: Publicar se mudou
