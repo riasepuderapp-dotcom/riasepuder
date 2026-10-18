@@ -569,6 +569,42 @@
     "piadas": 50,
     "bytes": 1690918,
     "sha256": "7fb571387ce6d3b6ad8bb1504be7d2a8a52f981657160fa183e084c055e3babf"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0007_05.zip",
+    "piadas": 50,
+    "bytes": 1895977,
+    "sha256": "1dde259d1d199110e156022bef4d147332192e6e5e6550c945d01cdec3f6405c"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0007_06.zip",
+    "piadas": 50,
+    "bytes": 1706355,
+    "sha256": "269a564d0eb281089fdf0135d0f29e6392684ad03e1a5f5279572c066e97b9a2"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0007_07.zip",
+    "piadas": 50,
+    "bytes": 1883297,
+    "sha256": "dc55604568d5bf54517d620e87136093a5a533af6e4bd2c8a4fc4ca505326716"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0007_08.zip",
+    "piadas": 50,
+    "bytes": 1956520,
+    "sha256": "6ac18f1d6a30a8328294b57ccbfbd714511a149303c0a7c0522c5fa64c22175d"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_0007_09.zip",
+    "piadas": 48,
+    "bytes": 1870707,
+    "sha256": "a7126d0c3a65ac182d9d1b1110094d91d4442a9ee8bfc276521b8a56a33c1cb9"
+   },
+   {
+    "arquivo": "audio/acervo/m/lote_extras_00.zip",
+    "piadas": 13,
+    "bytes": 340365,
+    "sha256": "6ae1092e9c9254c51de87f3260b8bd6cab73dd5ceaaf9114503c7b2715a4d916"
    }
   ],
   "f": [
@@ -913,6 +949,42 @@
     "piadas": 50,
     "bytes": 1767804,
     "sha256": "7267735d77855fc5d14efb22dbde048bace6058d73791af97b0c404885687bd2"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0007_05.zip",
+    "piadas": 50,
+    "bytes": 1959676,
+    "sha256": "cc6b1bc3b09142ebb355a4a37bec8410c64a0f01582e9faa51de94342bcea6d8"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0007_06.zip",
+    "piadas": 50,
+    "bytes": 1777534,
+    "sha256": "f924bb18a0d9508738410ede6701ec87fa064865a964367214b622e2cac12efe"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0007_07.zip",
+    "piadas": 50,
+    "bytes": 1961121,
+    "sha256": "3c7b5744045003618e1b2551787160da2ecff584da943419027701ddab3bc94c"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0007_08.zip",
+    "piadas": 50,
+    "bytes": 2043181,
+    "sha256": "ea2356f83d5d2ea3628f8c92e498502474a067438733e3ece097c614698aafb9"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_0007_09.zip",
+    "piadas": 48,
+    "bytes": 1946996,
+    "sha256": "049186fb53faee777a583e78c9136126e003f3b18250af2348bd9902ae61164c"
+   },
+   {
+    "arquivo": "audio/acervo/f/lote_extras_00.zip",
+    "piadas": 13,
+    "bytes": 362625,
+    "sha256": "8df34400f63482871dc12efdec220807a40daddee30e7a955108bbd334e60088"
    }
   ]
  },
